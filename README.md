@@ -8,7 +8,7 @@ This project includes a Dockerfile to facilitate the creation of a container.
 
 ```bash
 docker build -t app-newsletters-front .
-docker run -d -p 4200:4200 app-newsletters-front
+docker run -d -p 4200:80 app-newsletters-front
 ```
 
 ## Accessing the Application Interface
